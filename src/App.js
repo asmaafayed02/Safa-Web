@@ -1,11 +1,15 @@
 import React from "react";
+import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import SafaNavbar from "./components/Navbar/SafaNavbar";
+import Header from "./components/Header/Header";
+import Lectures from "./components/Lecturers/Lectures";
+
 function App() {
   
   return (
       <>
-        <SafaNavbar/>
+        <Header/>
+        <Lectures/>
       </>
   );
 }

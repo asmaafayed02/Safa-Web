@@ -9,9 +9,9 @@ import NavbarLinks from './NavbarLinks';
 
 const SafaNavbar = () => {
   return (
-    <Navbar bg="transparent" variant="light" expand="lg" className="d-block">
-      <Container className="">
-        <Navbar.Brand href="/">
+    <Navbar bg="transparent" variant="dark" expand="lg" className="d-block p-0">
+      <Container>
+        <Navbar.Brand href="/" className="m-0">
           <img src={logo} alt="safa logo" />
         </Navbar.Brand>
 
@@ -19,32 +19,32 @@ const SafaNavbar = () => {
         <Navbar.Collapse className="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0 flex-grow-1 justify-content-end gap-2"
-            style={{ maxHeight: "" }}
+            style={{ minHeight: "8vh" }}
             navbarScroll
           >
             <Nav.Link href="#action1">en</Nav.Link>
 
-            <BiSearch style={{ marginTop: "1rem" }} />
+            <BiSearch className="white" style={{ marginTop: "1rem" }} />
 
-            <Form className="d-flex ">
+            <Form className="d-flex">
               <FormControl
                 type="search"
                 placeholder="بحث …"
-                className="me-1 bg-transparent border-0 border-bottom"
+                className="me-1 bg-transparent border-0 border-bottom white"
                 aria-label="Search"
               />
             </Form>
 
-            <Nav.Link href="#action1">
+            <Nav.Link href="#action1" className="links">
               <VscCalendar /> الأجندة
             </Nav.Link>
-            <Nav.Link href="#action1">
+            <Nav.Link href="#action1" className="links">
               <CgProfile style={{ fontSize: "2em" }} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <div>
+      <div className="dark">
         <Navbar.Collapse className="navbarScroll">
           <NavbarLinks />
         </Navbar.Collapse>

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;700&family=Corinthia:wght@700&family=Open+Sans:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo'
+}
+.white,.breadcrumb a{
+    color: #fff !important; 
+}
+.dark{
+    color: #000; 
+}
+::placeholder{
+    color: #fff !important;
+}
+.links:hover, a:hover{
+    color: #51BFAD !important;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.card-position{
+    position:absolute;
+     top: -90px;
+}
+
+
+@media screen and (max-width: 786px) {
+    .card-position{
+        position: static;
+        top: 0;
+        right: 0;
+    }
+}
+@media screen and (max-width: 992px) {
+    .card-position{
+        right: 70%;
+        top: -60px
+    }
+}
