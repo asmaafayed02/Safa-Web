@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import headerBg from '../../assets/Group 170.png' 
+import headerBg from '../../assets/whitelogo.png' 
 import PostContent from './PostContent';
 const SeminarSection = () => {
   return (

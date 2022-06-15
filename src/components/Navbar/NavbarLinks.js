@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "react-bootstrap/Navbar";
 import { Container,Nav } from 'react-bootstrap';
-import { links } from '../Shared/data';
+import LinksData from '../Shared/Links';
 const NavbarLinks = () => {
   return (
     <>
@@ -9,19 +9,8 @@ const NavbarLinks = () => {
         <Navbar expand="lg" variant="dark" bg="white" className="rounded-3 ">
           <Container>
             <Nav >
-              {links.map((link) => {
-                const { id, url, text } = link;
-                return (
-                  <Nav.Link
-                    href={url}
-                    key={id}
-                    style={{ color: "black" }}
-                    className="links"
-                  >
-                    {text}
-                  </Nav.Link>
-                );
-              })}
+              <LinksData/>
+     
             </Nav>
           </Container>
         </Navbar>
