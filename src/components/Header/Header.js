@@ -30,7 +30,7 @@ const Header = () => {
                     marginLeft: "1rem",
                   }}
                 />
-                <span>يوم الخميس ١٦ يوليو ٢٠٢٠ م من ٤ - ٦ مساءاً</span>
+                <span className="white">يوم الخميس ١٦ يوليو ٢٠٢٠ م من ٤ - ٦ مساءاً</span>
               </p>
             </div>
             <h1 className='h1 fw-bold fs-2'>

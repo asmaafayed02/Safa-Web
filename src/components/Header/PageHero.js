@@ -22,7 +22,7 @@ const PageHero = ({title , url}) => {
           <a href='/' className="text-decoration-none fw-bold white p-2" variant="white">اضف الي المفضلة</a>
         {/* </div> */}
       </div>
-      <hr/>
+      <hr className="dark"/>
     </>
   );
 }

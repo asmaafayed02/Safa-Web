@@ -3,11 +3,11 @@ import { Row , Col} from 'react-bootstrap';
 import Card from "react-bootstrap/Card";
 
 const CardJen = (props) => {
-  const {imgSrc, title , text} = props
+  const {imgSrc, title , text ,bgColor, style } = props
   return (
-    <Card style={{ minWidth: "30rem" }} className="border-0 ">
+    <Card style={style} className={`border-0  ${bgColor}`}>
       <Row>
-        <Col xs={4} sm={2} className="align-item-center justify-content-center pt-2 g-0">
+        <Col xs={2} className="align-item-center justify-content-center pt-2 g-0">
           <Card.Img variant="top" src={imgSrc} className="rounded-circle " />
         </Col>
         <Col xs={9}>

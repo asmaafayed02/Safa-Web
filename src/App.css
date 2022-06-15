@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Cairo'
 }
+p{color: #303A6C;}
 .white,.breadcrumb a{
     color: #fff !important; 
 }
@@ -14,16 +15,25 @@
 ::placeholder{
     color: #fff !important;
 }
-.links:hover, a:hover{
+.links:hover,header a:hover{
     color: #51BFAD !important;
     transition: all 0.5s ease-in-out;
 }
 
+.greenBg{
+    background-color: #51BFAD
+}
+.blueBg{
+    background-color: #5260AB !important
 
-
+}
+.opacity{
+    opacity: 40%;
+}
 .card-position{
     position:absolute;
      top: -90px;
+     margin-bottom: 3rem;
 }
 
 

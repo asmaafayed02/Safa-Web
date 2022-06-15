@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "react-bootstrap/Navbar";
 import { Container,Nav } from 'react-bootstrap';
-import { links } from './data';
+import { links } from '../Shared/data';
 const NavbarLinks = () => {
   return (
     <>

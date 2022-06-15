@@ -2,14 +2,14 @@ import React from "react";
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header";
-import Lectures from "./components/Lecturers/Lectures";
+import HomePage from "./components/HomePage/HomePage";
 
 function App() {
   
   return (
       <>
         <Header/>
-        <Lectures/>
+        <HomePage/>
       </>
   );
 }
