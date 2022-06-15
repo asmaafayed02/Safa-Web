@@ -26,9 +26,9 @@ const PostContent = () => {
   ];
   return (
     <div>
-      <div className="d-flex justify-content-between text-center greenBg p-4 rounded-top">
+      <div className="d-md-flex justify-content-between text-center greenBg p-4 rounded-top">
         <p className="h3 white">نشر المحتوي </p>
-        <SociolIcons color="white" />
+        <SociolIcons color="white p-1" />
       </div>
       
         {contentData.map((item) => {

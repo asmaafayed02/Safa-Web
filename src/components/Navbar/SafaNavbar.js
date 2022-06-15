@@ -11,7 +11,7 @@ const SafaNavbar = () => {
   return (
     <Navbar bg="transparent" variant="dark" expand="lg" className="d-block p-0">
       <Container>
-        <Navbar.Brand href="/" className="m-0">
+        <Navbar.Brand href="/" className="m-0 col-6">
           <img src={logo} alt="safa logo" />
         </Navbar.Brand>
 

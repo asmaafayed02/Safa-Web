@@ -19,7 +19,7 @@ const Header = () => {
       <SafaNavbar />
       <Container className="py-5 my-3 ">
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={8} lg={6}>
             <PageHero title="الندوات" />
             <div>
               <p>

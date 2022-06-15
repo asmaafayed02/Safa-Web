@@ -10,7 +10,7 @@ const CardJen = (props) => {
         <Col xs={2} className="align-item-center justify-content-center pt-2 g-0">
           <Card.Img variant="top" src={imgSrc} className="rounded-circle " />
         </Col>
-        <Col xs={9}>
+        <Col xs={11} md={8}>
           <Card.Body>
             <Card.Title>{title}</Card.Title>
             <Card.Text className="fs-6 fw-light" style={{ color: "#5260AB" }}>
