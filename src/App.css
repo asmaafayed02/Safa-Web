@@ -19,7 +19,9 @@ p{color: #303A6C;}
     color: #51BFAD !important;
     transition: all 0.5s ease-in-out;
 }
-
+.greenColor{
+    color: #51BFAD;
+}
 .greenBg{
     background-color: #51BFAD
 }
@@ -29,6 +31,7 @@ p{color: #303A6C;}
 }
 .opacity{
     opacity: 40%;
+    
 }
 .card-position{
     position:absolute;

@@ -33,7 +33,7 @@ const PostContent = () => {
       
         {contentData.map((item) => {
           return (
-            <div className="blueBg " key={item.id}>
+            <div className="blueBg py-2" key={item.id}>
               <span className=" white ms-5 ps-5 opacity">{item.text}</span>
 
               <Container className="white">

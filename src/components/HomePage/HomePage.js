@@ -1,4 +1,5 @@
 import React from 'react'
+import AskSection from '../AskSection/AskSection'
 import Lectures from '../Lecturers/Lectures'
 import SeminarSection from '../SeminarSection/SeminarSection'
 
@@ -7,6 +8,7 @@ const HomePage = () => {
     <main>
         <Lectures/>
         <SeminarSection/>
+        <AskSection/>
     </main>
   )
 }
